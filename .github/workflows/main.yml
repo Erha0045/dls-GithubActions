@@ -6,4 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
      - run: echo "the jos was triggered by a ${{github.event_name}}"
+     - run: echo "OS ... ${{ runner.os }}"
  
